@@ -1,5 +1,5 @@
 {
-  "name": "@wp2508/mineflayer",
+  "name": "teng0ni-mineflayer",
   "version": "4.42.2",
   "description": "create minecraft bots with a stable, high level API",
   "main": "index.js",
