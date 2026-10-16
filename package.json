@@ -42,7 +42,7 @@
     "prismarine-world": "^3.6.0",
     "protodef": "npm:@wp2508/protodef@^1.19.2",
     "socks": "^2.8.9",
-    "typed-emitter": "^1.0.0",
+    "typed-emitter": "^2.1.0",
     "uuid-1345": "^1.0.2",
     "vec3": "^0.1.7"
   },
