@@ -25,8 +25,8 @@
     "access": "public"
   },
   "dependencies": {
-    "minecraft-data": "npm:@wp2508/minecraft-data@^3.111.5",
-    "minecraft-protocol": "npm:@wp2508/minecraft-protocol@^1.69.0",
+    "minecraft-data": "github:TimiSeila/teng0ni-minecraft-data",
+    "minecraft-protocol": "github:TimiSeila/teng0ni-minecraft-protocol",
     "mojangson": "^2.0.4",
     "prismarine-biome": "^1.1.1",
     "prismarine-block": "^1.22.0",
