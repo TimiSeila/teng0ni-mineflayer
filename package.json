@@ -37,7 +37,7 @@
     "prismarine-nbt": "^2.8.0",
     "prismarine-physics": "npm:@wp2508/prismarine-physics@^1.12.3",
     "prismarine-recipe": "^1.5.0",
-    "prismarine-registry": "^1.12.0",
+    "prismarine-registry": "github:TimiSeila/teng0ni-prismarine-registry",
     "prismarine-windows": "^2.10.0",
     "prismarine-world": "^3.7.0",
     "protodef": "npm:@wp2508/protodef@^1.19.3",
