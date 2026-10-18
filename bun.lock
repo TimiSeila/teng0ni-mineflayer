@@ -10,7 +10,7 @@
         "mojangson": "^2.1.0",
         "prismarine-biome": "^1.4.0",
         "prismarine-block": "^1.23.0",
-        "prismarine-chat": "npm:@wp2508/prismarine-chat@^1.13.3",
+        "prismarine-chat": "github:TimiSeila/teng0ni-prismarine-chat",
         "prismarine-chunk": "npm:@wp2508/prismarine-chunk@^1.41.3",
         "prismarine-entity": "^2.6.0",
         "prismarine-item": "^1.18.0",
@@ -773,7 +773,7 @@
 
     "prismarine-block": ["prismarine-block@1.23.0", "", { "dependencies": { "minecraft-data": "^3.38.0", "prismarine-biome": "^1.1.0", "prismarine-chat": "^1.5.0", "prismarine-item": "^1.10.1", "prismarine-nbt": "^2.0.0", "prismarine-registry": "^1.1.0" } }, "sha512-j2UoU4KbXMvNlBw+aLkMOnEuMayYefznUfbrfv1VIbckG3RA9LpNWltOMHXuOR5YkHp8uIZPOclj95XC88jgGw=="],
 
-    "prismarine-chat": ["@wp2508/prismarine-chat@1.13.3", "", { "dependencies": { "debug": "^4.3.2", "mojangson": "^2.0.1", "prismarine-nbt": "^2.0.0", "prismarine-registry": "^1.4.0" } }, "sha512-vV2LYHrBLGO0E44+hE9DjJVGmw0rD6gi9kqz4tjnaUAXs2JqJe+oOo6I8nyomU1vEA8THze+0adNqijtY4nb0A=="],
+    "prismarine-chat": ["@wp2508/prismarine-chat@github:TimiSeila/teng0ni-prismarine-chat#c713738", { "dependencies": { "debug": "^4.3.2", "mojangson": "^2.0.1", "prismarine-nbt": "^2.0.0", "prismarine-registry": "github:TimiSeila/teng0ni-prismarine-registry" } }, "TimiSeila-teng0ni-prismarine-chat-c713738", "sha512-igWoxPXzGQdHaQrrLH8foZRFM752OH5f//3YwwzQ5gf8dTa1tL4eZ9QAE6jhjtakqRBul7I8gyzycRqm4QSHZw=="],
 
     "prismarine-chunk": ["@wp2508/prismarine-chunk@1.41.3", "", { "dependencies": { "minecraft-data": "npm:@wp2508/minecraft-data@^3.111.0", "prismarine-biome": "^1.2.0", "prismarine-block": "^1.14.1", "prismarine-nbt": "^2.2.1", "prismarine-registry": "^1.1.0", "smart-buffer": "^4.1.0", "uint4": "^0.1.2", "vec3": "^0.1.3", "xxhash-wasm": "^0.4.2" } }, "sha512-w0lkYhbJ6HmtIcODzbqvRlnA1yQm1K55KTaQU7SHstXnMhkq4St9KNAOtIUfH0PcoOuW1DlrGWQBZw8qd98Jkg=="],
 
@@ -789,7 +789,7 @@
 
     "prismarine-recipe": ["prismarine-recipe@1.5.0", "", { "peerDependencies": { "prismarine-registry": "^1.4.0" } }, "sha512-GRZHbsyBIUgVNF10vFRv2YWZj86vokCT5EWX6iK6gfx6h4FapgZT29V2DNkjv5+hmdzBCLZvfx1/RYr8VPeoGQ=="],
 
-    "prismarine-registry": ["prismarine-registry@github:TimiSeila/teng0ni-prismarine-registry#c837358", { "dependencies": { "minecraft-data": "^3.117.0", "prismarine-block": "^1.23.0", "prismarine-nbt": "^2.8.0" } }, "TimiSeila-teng0ni-prismarine-registry-c837358", "sha512-vLh1MsmrxkDSSv4xBYjdUdr63UoDx2z7fTnr+fwJHYoa88N7lvskKvv3JTA5/O2C43GOg00hIr7HGHqmRlcdpQ=="],
+    "prismarine-registry": ["prismarine-registry@github:TimiSeila/teng0ni-prismarine-registry#b32d366", { "dependencies": { "minecraft-data": "github:TimiSeila/teng0ni-minecraft-data", "prismarine-block": "^1.23.0", "prismarine-nbt": "^2.8.0" } }, "TimiSeila-teng0ni-prismarine-registry-b32d366", "sha512-tvPmmtiHwkQNQH/NPZwLIjcWAFluzWl09FLS+bduKoGUctSu9LdcDJxR2u+8sBvZJjVM6gyA+/oxs4EjMCi01g=="],
 
     "prismarine-windows": ["prismarine-windows@2.10.0", "", { "dependencies": { "prismarine-item": "^1.12.2", "prismarine-registry": "^1.7.0", "typed-emitter": "^2.1.0" } }, "sha512-ssXLGAr7W9JLvvLjYMoo1j4j6AdJaoIb0/HlqkWMWlQqvZJeiS4zyBjJY6+GtR4OzpjkEf6IvF5cNXhHFpbcZQ=="],
 
@@ -1165,8 +1165,6 @@
 
     "prismarine-block/prismarine-registry": ["prismarine-registry@1.12.0", "", { "dependencies": { "minecraft-data": "^3.70.0", "prismarine-block": "^1.17.1", "prismarine-nbt": "^2.0.0" } }, "sha512-OC5U6YrflY6OcAWRZEqe2HGZuNp0bIuP7H+oKEHD6rLfKNDxo8Ymx5eh2VvrZWnMVugpwID1Qj/UjA4MoCzNDw=="],
 
-    "prismarine-chat/prismarine-registry": ["prismarine-registry@1.12.0", "", { "dependencies": { "minecraft-data": "^3.70.0", "prismarine-block": "^1.17.1", "prismarine-nbt": "^2.0.0" } }, "sha512-OC5U6YrflY6OcAWRZEqe2HGZuNp0bIuP7H+oKEHD6rLfKNDxo8Ymx5eh2VvrZWnMVugpwID1Qj/UjA4MoCzNDw=="],
-
     "prismarine-chunk/minecraft-data": ["@wp2508/minecraft-data@3.111.6", "", {}, "sha512-0lBIyhPLsCIuQ9UnJVp4s5De0IRPEQTwGuv69EiLuqmKOE06xXYDQpKsS0bZ25G/hNm4P1Xqmdy5ULriH9fT/w=="],
 
     "prismarine-chunk/prismarine-registry": ["prismarine-registry@1.12.0", "", { "dependencies": { "minecraft-data": "^3.70.0", "prismarine-block": "^1.17.1", "prismarine-nbt": "^2.0.0" } }, "sha512-OC5U6YrflY6OcAWRZEqe2HGZuNp0bIuP7H+oKEHD6rLfKNDxo8Ymx5eh2VvrZWnMVugpwID1Qj/UjA4MoCzNDw=="],
@@ -1180,8 +1178,6 @@
     "prismarine-physics/minecraft-data": ["@wp2508/minecraft-data@3.111.6", "", {}, "sha512-0lBIyhPLsCIuQ9UnJVp4s5De0IRPEQTwGuv69EiLuqmKOE06xXYDQpKsS0bZ25G/hNm4P1Xqmdy5ULriH9fT/w=="],
 
     "prismarine-physics/vec3": ["vec3@0.2.0", "", {}, "sha512-jOjU4zbCNWOKOGLHop1I0J2Ar4h5Zz76455LJhJKhiOJwI21QP6d5TnKklNZDKG+c5h71zWtPAbd9wh+Va57OQ=="],
-
-    "prismarine-registry/minecraft-data": ["minecraft-data@3.117.0", "", {}, "sha512-glKv0EEmVwKvJwdNAKAal2P7gi/nijU9rEMp8gJmqYYRVswS6hA0q9566lcGHH07Ocmpqw5bMRbARC25pR13gA=="],
 
     "prismarine-windows/prismarine-registry": ["prismarine-registry@1.12.0", "", { "dependencies": { "minecraft-data": "^3.70.0", "prismarine-block": "^1.17.1", "prismarine-nbt": "^2.0.0" } }, "sha512-OC5U6YrflY6OcAWRZEqe2HGZuNp0bIuP7H+oKEHD6rLfKNDxo8Ymx5eh2VvrZWnMVugpwID1Qj/UjA4MoCzNDw=="],
 
@@ -1246,8 +1242,6 @@
     "pkg-conf/find-up/locate-path": ["locate-path@3.0.0", "", { "dependencies": { "p-locate": "^3.0.0", "path-exists": "^3.0.0" } }, "sha512-7AO748wWnIhNqAuaty2ZWHkQHRSNfPVIsPIfwEOWO22AmaoVrWavlOcMR5nzTLNYvp36X220/maaRsrec1G65A=="],
 
     "pkg-up/find-up/locate-path": ["locate-path@2.0.0", "", { "dependencies": { "p-locate": "^2.0.0", "path-exists": "^3.0.0" } }, "sha512-NCI2kiDkyR7VeEKm27Kda/iQHyKJe1Bu0FlTbYp3CqJu+9IFe9bLyAjMxf5ZDDbEg+iMPzB5zYyUTSm8wVTKmA=="],
-
-    "prismarine-chat/prismarine-registry/minecraft-data": ["minecraft-data@3.117.0", "", {}, "sha512-glKv0EEmVwKvJwdNAKAal2P7gi/nijU9rEMp8gJmqYYRVswS6hA0q9566lcGHH07Ocmpqw5bMRbARC25pR13gA=="],
 
     "prismarine-chunk/prismarine-registry/minecraft-data": ["minecraft-data@3.117.0", "", {}, "sha512-glKv0EEmVwKvJwdNAKAal2P7gi/nijU9rEMp8gJmqYYRVswS6hA0q9566lcGHH07Ocmpqw5bMRbARC25pR13gA=="],
 

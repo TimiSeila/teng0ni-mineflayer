@@ -30,7 +30,7 @@
     "mojangson": "^2.1.0",
     "prismarine-biome": "^1.4.0",
     "prismarine-block": "^1.23.0",
-    "prismarine-chat": "npm:@wp2508/prismarine-chat@^1.13.3",
+    "prismarine-chat": "github:TimiSeila/teng0ni-prismarine-chat",
     "prismarine-chunk": "npm:@wp2508/prismarine-chunk@^1.41.3",
     "prismarine-entity": "^2.6.0",
     "prismarine-item": "^1.18.0",
